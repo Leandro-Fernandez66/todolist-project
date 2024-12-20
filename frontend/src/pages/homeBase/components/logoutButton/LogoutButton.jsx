@@ -18,7 +18,7 @@ function LogoutButton() {
             });
 
             if (response.ok) {
-                localStorage.removeItem('token');
+                localStorage.removeItem('appState');
 
                 navigate('/login');
 
