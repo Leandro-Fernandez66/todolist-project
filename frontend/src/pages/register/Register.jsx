@@ -31,7 +31,9 @@ function Register() {
                 return;
             }
 
-            console.log('register done');
+            const newUserData = await response.json();
+
+            console.log(newUserData);
 
             navigate('/registerDone');
         } catch (error) {
