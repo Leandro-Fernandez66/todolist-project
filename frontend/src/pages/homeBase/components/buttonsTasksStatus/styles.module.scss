@@ -1,0 +1,27 @@
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+
+    .button-completed {
+        background-color: #3bbe62;
+        border-radius: 16px;
+        padding: 0.5rem;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .button-completed:hover {
+        background-color: #2eaa55;
+    }
+
+    .button-uncompleted {
+        background-color: #d45f5f;
+        border-radius: 16px;
+        padding: 0.5rem;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .button-uncompleted:hover {
+        background-color: #d33737;
+    }
+}

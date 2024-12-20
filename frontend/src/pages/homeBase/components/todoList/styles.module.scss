@@ -1,0 +1,11 @@
+$color-principal: #e7e4e4;
+
+.tasks-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  list-style: none;
+  border-radius: 4px;
+  background-color: $color-principal;
+  padding: 1rem;
+}
